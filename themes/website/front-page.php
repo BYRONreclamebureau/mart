@@ -1,8 +1,8 @@
 <?php get_header() ?>
-<?php 
+<?php
 while (have_posts()) {
     the_post();
-    ?> 
+    ?>
     <div class="home-landing">
         <div class="container">
             <div class="row">
@@ -59,7 +59,7 @@ while (have_posts()) {
                 <div class="col-lg-4">
                     <div class="card-price">
                         <div class="card-top">
-                            <h1>€500,-</h1>
+                            <h1>€5000,-</h1>
                         </div>
                         <div class="card-bottom">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra tempus elementum.</p>
@@ -69,7 +69,7 @@ while (have_posts()) {
                 <div class="col-lg-4">
                     <div class="card-price">
                         <div class="card-top">
-                            <h1>€900,-</h1>
+                            <h1>€9000,-</h1>
                         </div>
                         <div class="card-bottom">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra tempus elementum.</p>
@@ -83,7 +83,7 @@ while (have_posts()) {
                         </div>
                         <div class="card-bottom">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra tempus elementum.</p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -95,4 +95,3 @@ while (have_posts()) {
 ?>
 
 <?php
-
